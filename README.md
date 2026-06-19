@@ -1,4 +1,4 @@
-# NTP Timer
+# NTP Timer (PUBLIC VERSION)
 
 NTP 서버에서 시각을 받아와 **밀리초(ms) 단위**까지 표시하는 Windows 데스크톱 시계.
 검정 배경에 밝은 글자로 날짜와 `HH:mm:ss.fff` 를 크게 보여준다.
