@@ -3,6 +3,9 @@
 NTP 서버에서 시각을 받아와 **밀리초(ms) 단위**까지 표시하는 Windows 데스크톱 시계.
 검정 배경에 밝은 글자로 날짜와 `HH:mm:ss.fff` 를 크게 보여준다.
 
+<img width="746" height="313" alt="image" src="https://github.com/user-attachments/assets/0cd9e72a-2505-4236-8c9e-42e6bb23c1e5" />
+
+
 - **.NET 8 / WPF** 단일 창 앱
 - 시작 시 NTP **1회** 동기화 → 이후 표시는 고해상도 `Stopwatch` 로 흘러가므로 부드럽고 서버 부담이 없다
 - 왕복지연(round-trip delay)을 SNTP 4-타임스탬프 공식으로 보정
